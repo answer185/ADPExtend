@@ -86,19 +86,19 @@ export default [
           },
         ],
       },
-			// DC Dextends Form
-			{
-				path: '/dc-form',
-				icon: 'form',
-				name: 'dcForm',
-				routes: [
-					{
-						path: '/dc-form/custom-items',
-						name: 'customItems',
-						component: './DCForm/CustomItems',
-					}
-				]
-			}
+      // DC Dextends Form
+      {
+        path: '/dc-form',
+        icon: 'form',
+        name: 'dcForm',
+        routes: [
+          {
+            path: '/dc-form/custom-items',
+            name: 'customItems',
+            component: './DCForm/CustomItems',
+          },
+        ],
+      },
       // list
       {
         path: '/list',
